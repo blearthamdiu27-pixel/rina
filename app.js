@@ -42,8 +42,7 @@ const translations = {
     categories: {
       lashes: "Qerpikë",
       nails: "Thonjtë",
-      brows: "Brows",
-      lashlift: "Lash Lift"
+      brows: "Brows"
     },
     services: {
       lashes: [
@@ -58,19 +57,14 @@ const translations = {
         { id: "nails-extensions", name: "Mbjellja e thonjëve", duration: "1 orë" },
         { id: "nails-refill", name: "Riparim", duration: "1 orë 10 min." },
         { id: "nails-pedicure", name: "Pedikyr klasik", duration: "45 min." },
-        { id: "nails-french", name: "French", duration: "20 min." },
-        { id: "nails-ombre", name: "Ombre", duration: "30 min." },
-        { id: "nails-designs", name: "Dizajne", duration: "20 min." }
+        { id: "nails-french", name: "French", duration: "1 orë 15 min." },
+        { id: "nails-ombre", name: "Ombre", duration: "1 orë 15 min." },
+        { id: "nails-designs", name: "Dizajne", duration: "1 orë 20 min." }
       ],
       brows: [
         { id: "brows-shaping", name: "Rregullim vetullash", duration: "20 min." },
         { id: "brows-tint", name: "Ngjyrosje vetullash", duration: "25 min." },
         { id: "brows-lamination", name: "Brow Lamination", duration: "45 min." }
-      ],
-      lashlift: [
-        { id: "lift-classic", name: "Lash Lift", duration: "20 min." },
-        { id: "lift-tint", name: "Lash Lift + ngjyrë", duration: "35 min." },
-        { id: "lift-care", name: "Kujdes pas liftit", duration: "15 min." }
       ]
     },
     calendar: {
@@ -101,7 +95,7 @@ const translations = {
       phone: "Numri i telefonit",
       countryAria: "Kodi telefonik i Kosovës",
       phoneDefault: "+383 ",
-      email: "Email",
+      email: "Opsionale: Zbritje dhe oferta promocionale përmes email",
       emailPlaceholder: "email@example.com",
       terms: "Duke klikuar butonin më sipër, ju pranoni Kushtet e përdorimit dhe Politikën e privatësisë"
     },
@@ -158,8 +152,7 @@ const translations = {
     categories: {
       lashes: "Lashes",
       nails: "Nails",
-      brows: "Brows",
-      lashlift: "Lash Lift"
+      brows: "Brows"
     },
     services: {
       lashes: [
@@ -174,19 +167,14 @@ const translations = {
         { id: "nails-extensions", name: "Nail Extensions", duration: "1 hr" },
         { id: "nails-refill", name: "Repair", duration: "1 hr 10 min" },
         { id: "nails-pedicure", name: "Classic Pedicure", duration: "45 min" },
-        { id: "nails-french", name: "French", duration: "20 min" },
-        { id: "nails-ombre", name: "Ombre", duration: "30 min" },
-        { id: "nails-designs", name: "Designs", duration: "20 min" }
+        { id: "nails-french", name: "French", duration: "1 hr 15 min" },
+        { id: "nails-ombre", name: "Ombre", duration: "1 hr 15 min" },
+        { id: "nails-designs", name: "Designs", duration: "1 hr 20 min" }
       ],
       brows: [
         { id: "brows-shaping", name: "Brow Shaping", duration: "20 min" },
         { id: "brows-tint", name: "Brow Tint", duration: "25 min" },
         { id: "brows-lamination", name: "Brow Lamination", duration: "45 min" }
-      ],
-      lashlift: [
-        { id: "lift-classic", name: "Lash Lift", duration: "20 min" },
-        { id: "lift-tint", name: "Lash Lift + Tint", duration: "35 min" },
-        { id: "lift-care", name: "Aftercare Treatment", duration: "15 min" }
       ]
     },
     calendar: {
@@ -217,7 +205,7 @@ const translations = {
       phone: "Phone number",
       countryAria: "Kosovo dialing code",
       phoneDefault: "+383 ",
-      email: "Email",
+      email: "Optional: discounts and promotional offers by email",
       emailPlaceholder: "email@example.com",
       terms: "By tapping the button above, you agree to the Terms of Use and Privacy Policy"
     },
@@ -274,8 +262,7 @@ const translations = {
     categories: {
       lashes: "Wimpern",
       nails: "Nägel",
-      brows: "Augenbrauen",
-      lashlift: "Wimpernlifting"
+      brows: "Augenbrauen"
     },
     services: {
       lashes: [
@@ -290,19 +277,14 @@ const translations = {
         { id: "nails-extensions", name: "Nagelmodellage", duration: "1 Std." },
         { id: "nails-refill", name: "Reparatur", duration: "1 Std. 10 Min." },
         { id: "nails-pedicure", name: "Klassische Pediküre", duration: "45 Min." },
-        { id: "nails-french", name: "French", duration: "20 Min." },
-        { id: "nails-ombre", name: "Ombre", duration: "30 Min." },
-        { id: "nails-designs", name: "Designs", duration: "20 Min." }
+        { id: "nails-french", name: "French", duration: "1 Std. 15 Min." },
+        { id: "nails-ombre", name: "Ombre", duration: "1 Std. 15 Min." },
+        { id: "nails-designs", name: "Designs", duration: "1 Std. 20 Min." }
       ],
       brows: [
         { id: "brows-shaping", name: "Augenbrauen formen", duration: "20 Min." },
         { id: "brows-tint", name: "Augenbrauen färben", duration: "25 Min." },
         { id: "brows-lamination", name: "Brow Lamination", duration: "45 Min." }
-      ],
-      lashlift: [
-        { id: "lift-classic", name: "Wimpernlifting", duration: "20 Min." },
-        { id: "lift-tint", name: "Wimpernlifting + Farbe", duration: "35 Min." },
-        { id: "lift-care", name: "Pflege nach dem Lift", duration: "15 Min." }
       ]
     },
     calendar: {
@@ -333,7 +315,7 @@ const translations = {
       phone: "Telefonnummer",
       countryAria: "Kosovo Vorwahl",
       phoneDefault: "+383 ",
-      email: "E-Mail",
+      email: "Optional: Rabatte und Angebote per E-Mail",
       emailPlaceholder: "email@example.com",
       terms: "Mit dem Tippen auf den Button akzeptierst du die Nutzungsbedingungen und die Datenschutzerklärung"
     },
