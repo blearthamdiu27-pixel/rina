@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rina Glamour | Cakto Terminin</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-live="polite">
+      <header class="brand-bar">
+        <div class="brand-lockup">
+          <span>Rina Glamour</span>
+        </div>
+        <div class="language-switch" role="group" data-i18n-aria="languageAria">
+          <button class="lang-option is-selected" type="button" data-lang="sq" aria-label="Shqip" aria-pressed="true">SQ</button>
+          <button class="lang-option" type="button" data-lang="de" aria-label="Deutsch" aria-pressed="false">DE</button>
+          <button class="lang-option" type="button" data-lang="en" aria-label="English" aria-pressed="false">EN</button>
+        </div>
+      </header>
+
+      <section class="screen is-active home-screen" data-screen="home">
+        <div class="home-content">
+          <a class="phone-link" href="tel:+38345689704" data-i18n-aria="home.phoneAria">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M22 16.9v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.35 1.9.65 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.3 1.85.52 2.81.65A2 2 0 0 1 22 16.9Z" />
+            </svg>
+            +383 45 689 704
+          </a>
+          <h1><span data-i18n="home.welcome">Mirësevini në</span> <strong>Rina Glamour</strong></h1>
+          <p data-i18n="home.tagline">Rina Glamour ofron shërbime profesionale për qerpikë, thonj, lash lift dhe vetulla në një ambient elegant dhe relaksues.
+Rezervo termin tani dhe ndihu më e bukur me Rina Glamour.</p>
+          <button class="primary-button" type="button" data-go="location" data-i18n="home.cta">Cakto termin</button>
+        </div>
+        <footer class="powered"><span data-i18n="home.powered">Mundësuar nga</span> <strong>Rina Glamour</strong></footer>
+      </section>
+
+      <section class="screen" data-screen="location">
+        <div class="step-head">
+          <h2 data-i18n="titles.location">Zgjidh lokacionin</h2>
+          <div class="step-meta">
+            <button class="icon-button" type="button" data-back="home" aria-label="Back" data-i18n-aria="actions.back">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <span data-i18n="steps.location">Hapi 1 / 4</span>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span style="width: 25%"></span></div>
+
+        <div class="card-list" data-location-list></div>
+      </section>
+
+      <section class="screen" data-screen="service">
+        <div class="step-head">
+          <h2 data-i18n="titles.service">Zgjidh shërbimin</h2>
+          <div class="step-meta">
+            <button class="icon-button" type="button" data-back="location" aria-label="Back" data-i18n-aria="actions.back">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <span data-i18n="steps.service">Hapi 2 / 4</span>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span style="width: 50%"></span></div>
+
+        <div class="selection-chips">
+          <span class="chip" data-summary="location">Vushtrri</span>
+        </div>
+
+        <nav class="category-tabs" aria-label="Service categories" data-i18n-aria="serviceCategoriesAria">
+          <button class="tab is-selected" type="button" data-category="nails">Thonjtë</button>
+          <button class="tab" type="button" data-category="lashes">Qerpikë</button>
+          <button class="tab" type="button" data-category="brows">Brows</button>
+          <button class="tab" type="button" data-category="lashlift">Lash Lift</button>
+        </nav>
+
+        <h3 class="section-title" data-category-title>Thonjtë</h3>
+        <div class="card-list service-list" data-service-list></div>
+      </section>
+
+      <section class="screen" data-screen="datetime">
+        <div class="step-head">
+          <h2 data-i18n="titles.datetime">Zgjidh datën</h2>
+          <div class="step-meta">
+            <button class="icon-button" type="button" data-back="service" aria-label="Back" data-i18n-aria="actions.back">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <span data-i18n="steps.datetime">Hapi 3 / 4</span>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span style="width: 75%"></span></div>
+
+        <div class="selection-chips">
+          <span class="chip" data-summary="location">Vushtrri</span>
+          <span class="chip" data-summary="service">Thonjtë me gel</span>
+        </div>
+
+        <section class="calendar-card" aria-label="Appointment calendar" data-i18n-aria="appointmentCalendarAria">
+          <div class="calendar-head">
+            <button class="small-icon-button" type="button" data-month="prev" aria-label="Previous month" data-i18n-aria="actions.prevMonth">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <strong data-month-label>Maj 2026</strong>
+            <button class="small-icon-button" type="button" data-month="next" aria-label="Next month" data-i18n-aria="actions.nextMonth">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m9 18 6-6-6-6" />
+              </svg>
+            </button>
+          </div>
+          <div class="weekday-grid" aria-hidden="true" data-weekday-grid></div>
+          <div class="calendar-grid" data-calendar-grid></div>
+        </section>
+
+        <section class="time-section">
+          <h3 data-time-title>Zgjidh një hapësirë kohore</h3>
+          <div class="time-grid" data-time-list></div>
+        </section>
+      </section>
+
+      <section class="screen" data-screen="info">
+        <div class="step-head">
+          <h2 data-i18n="titles.info">Informacionet tuaja</h2>
+          <div class="step-meta">
+            <button class="icon-button" type="button" data-back="datetime" aria-label="Back" data-i18n-aria="actions.back">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="m15 18-6-6 6-6" />
+              </svg>
+            </button>
+            <span data-i18n="steps.info">Hapi 4 / 4</span>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true"><span style="width: 100%"></span></div>
+
+        <div class="selection-chips wrap">
+          <span class="chip" data-summary="location">Vushtrri</span>
+          <span class="chip" data-summary="service">Thonjtë me gel</span>
+          <span class="chip" data-summary="date">E Hënë, 4 Maj 2026 në 07:00</span>
+        </div>
+
+        <form class="booking-form" data-booking-form>
+          <div class="field-row">
+            <label>
+              <span data-i18n="form.firstName">Emri</span>
+              <input name="firstName" type="text" placeholder="Filan" autocomplete="given-name" required data-i18n-placeholder="form.firstPlaceholder" />
+            </label>
+            <label>
+              <span data-i18n="form.lastName">Mbiemri</span>
+              <input name="lastName" type="text" placeholder="Fisteku" autocomplete="family-name" required data-i18n-placeholder="form.lastPlaceholder" />
+            </label>
+          </div>
+          <label>
+            <span data-i18n="form.phone">Numri i telefonit</span>
+            <div class="phone-field">
+              <button class="country-code" type="button" aria-label="Kosovo dialing code" data-i18n-aria="form.countryAria">
+                🇽🇰
+                <svg class="icon muted" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="m6 9 6 6 6-6" />
+                </svg>
+              </button>
+              <input name="phone" type="tel" value="+383 " autocomplete="tel" required />
+            </div>
+          </label>
+          <label>
+            <span data-i18n="form.email">Email</span>
+            <input name="email" type="email" placeholder="rina@example.com" autocomplete="email" data-i18n-placeholder="form.emailPlaceholder" />
+          </label>
+          <button class="primary-button" type="submit" data-i18n="actions.submit">Cakto terminin</button>
+          <p class="terms" data-i18n="form.terms">Duke klikuar butonin më sipër, ju pranoni Kushtet e përdorimit dhe Politikën e privatësisë</p>
+        </form>
+
+        <div class="confirmation-card" hidden data-confirmation>
+          <div class="confirmation-icon" aria-hidden="true">
+            <svg class="icon" viewBox="0 0 24 24">
+              <path d="M20 6 9 17l-5-5" />
+            </svg>
+          </div>
+          <h3 data-i18n="confirmation.title">Termini u regjistrua</h3>
+          <p data-confirmation-copy></p>
+          <button class="secondary-button" type="button" data-go="home" data-i18n="actions.restart">Kthehu në fillim</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
