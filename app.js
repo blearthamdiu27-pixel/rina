@@ -95,7 +95,7 @@ const translations = {
       phone: "Numri i telefonit",
       countryAria: "Kodi telefonik i Kosovës",
       phoneDefault: "+383 ",
-      email: "Opsionale: Zbritje dhe oferta promocionale përmes email",
+      email: "Zbritje dhe oferta promocionale përmes email",
       emailPlaceholder: "email@example.com",
       terms: "Duke klikuar butonin më sipër, ju pranoni Kushtet e përdorimit dhe Politikën e privatësisë"
     },
